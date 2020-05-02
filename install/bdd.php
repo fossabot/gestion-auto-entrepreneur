@@ -5,6 +5,7 @@
 
 		//CONF
 		$racine = "..";
+		$p_css = "/include/css/";
 		require($racine . "/include/php/general.php");
 
 		//NOM SITE
