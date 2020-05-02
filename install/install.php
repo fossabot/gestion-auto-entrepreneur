@@ -100,7 +100,18 @@
 								parametreUpdate(1, "var1", 1);
 							} else 
 							{
-								echo "Error: " . $reqInstall . "<br>" . $conn->error;
+								if(stristr($reqInstall, 'n\'existe pas ') === FALSE) {
+									?>
+										<div class="alert alert-danger text-center" role="alert">
+											<h4><b>Une erreur est survenue !</b></h4>
+											<p>Veuillez vérifier que vous avez bien inséré le fichier '<b>BDD.sql</b>' dans phpMyAdmin.</p>
+										</div>
+									<?php
+								}
+								else
+								{
+									echo "Error: " . $reqInstall . "<br>" . $conn->error;
+								}
 							}
 						}
 						else
