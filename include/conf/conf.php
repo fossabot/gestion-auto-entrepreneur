@@ -1,5 +1,6 @@
 <?php
-ini_set('display_error',1);
+ini_set('display_error',0);
+error_reporting(0);
 setlocale(LC_TIME, "fr_FR", "french", "fr_FR.UTF8", "fr");
 date_default_timezone_set('Europe/Paris');
 // Locale::setDefault('fr_FR');

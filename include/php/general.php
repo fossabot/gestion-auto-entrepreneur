@@ -667,19 +667,26 @@ function prestationCloture($id)
 	// on envoie la requête
 	$resPrestationCloture = $conn->query($reqPrestationCloture);
 
-	$reqPrestationClotureProduitDefSelect = "SELECT * FROM prestationproduit JOIN produits ON prestationproduit.produit = produits.ref WHERE facture=$id";
+	$reqPrestationClotureProduitDefSelect = "SELECT *, prestationproduit.id as ppID FROM prestationproduit JOIN prestation ON prestationproduit.facture = prestation.id JOIN produits ON prestationproduit.produit = produits.ref WHERE facture=$id";
 
 	$resPrestationClotureProduitDefSelect = $conn->query($reqPrestationClotureProduitDefSelect);
 
 	while ($dataPrestationClotureProduitDefSelect = mysqli_fetch_array($resPrestationClotureProduitDefSelect))
 	{
-		echo "ok bloucle <br>";
-	    $prix = $dataPrestationClotureProduitDefSelect['prixvente'];
-	    $id2 = $dataPrestationClotureProduitDefSelect['id'];
-	    echo $prix . "<br>";
+		if($dataPrestationClotureProduitDefSelect['remise'] != "")
+		{
+	    	$prix = ($dataPrestationClotureProduitDefSelect['prixvente'] - $dataPrestationClotureProduitDefSelect['prixachat']) * ($dataPrestationClotureProduitDefSelect['remise']/ 100);
+		}
+		else
+		{
+	    	$prix = $dataPrestationClotureProduitDefSelect['prixvente'] - $dataPrestationClotureProduitDefSelect['prixachat'];
+		}
+
+	    $id2 = $dataPrestationClotureProduitDefSelect['ppID'];
+	    echo $id2 . " -> " . $prix . "<br>";
     
 	    // On créé la requête
-		$reqPrestationClotureProduitDef = "UPDATE prestationproduit SET prixfinalunitaire='$prix' WHERE id=$id2";
+		$reqPrestationClotureProduitDef = "UPDATE prestationproduit SET prixfinalunitaire='$prix' WHERE id='$id2'";
 
 		echo $reqPrestationClotureProduitDef . "<br>";
 		 
@@ -721,12 +728,12 @@ function calculeChiffreAffaire($offset, $debut, $fin, $type)
 		{
 			if ($dataCalculeCA["activiteID"] == $type) 
 			{
-				$somme = $somme + (($dataCalculeCA['prixvente'] - $dataCalculeCA['prixachat']) * $dataCalculeCA['produitqte']);
+				$somme = $somme + ($dataCalculeCA['prixfinalunitaire'] * $dataCalculeCA['produitqte']);
 			}
 		}
 		else
 		{
-			$somme = $somme + (($dataCalculeCA['prixvente'] - $dataCalculeCA['prixachat']) * $dataCalculeCA['produitqte']);
+			$somme = $somme + ($dataCalculeCA['prixfinalunitaire'] * $dataCalculeCA['produitqte']);
 		}
 	}
 

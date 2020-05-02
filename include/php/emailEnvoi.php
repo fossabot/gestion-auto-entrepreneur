@@ -11,8 +11,10 @@ if (isset($_POST['inputDestinataire']) && !empty($_POST['inputDestinataire']) &&
 {
 	// $destinataireEmail = clientInfo('email', prestationInfo('client', $_GET['prestation']));
 	$destinataireID = $_POST['inputDestinataire'];
-	echo $destinataireID;
-	$prestation = $_POST['prestation'];
+
+	$prestation = $_POST['inputPrestation'];
+	echo $prestation . "<br>";
+
 	$sujet = $_POST['inputSujet'];
 	$contenu = $_POST['inputContenu'];
 
@@ -48,4 +50,4 @@ else
 }
 
 echo "<br>FIN";
-header('Location: /email/nouveau.php?msg=' . $retour);
+header('Location: /email/liste.php?msg=' . $retour);

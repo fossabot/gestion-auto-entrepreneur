@@ -19,6 +19,28 @@
 	<main>
 		<h1>Email</h1>
 
+		<?php
+		if (isset($_GET['msg']) && !empty($_GET['msg'])) 
+		{
+			if ($_GET['msg'] == "ok") 
+			{
+				?>
+					<div class="alert alert-success text-center w-25 mx-auto" role="alert">
+					  Succes !
+					</div>
+				<?php
+			}
+			else
+			{
+				?>
+					<div class="alert alert-danger text-center w-25 mx-auto" role="alert">
+					  <?php echo $_GET['msg']; ?>
+					</div>
+				<?php
+			}
+		}
+		?>
+
 		<div class="table-responsive">
 			<table>
 				<thead>
