@@ -1,0 +1,55 @@
+.bkg-gris
+{
+	background-color: #C6C6C6;
+}
+.barrer
+{
+	text-decoration: line-through;
+}
+fieldset.borderForm
+{
+	border: solid 1px #7E7E7E;
+	margin-top: 10px;
+	padding: 10px;
+}
+fieldset.borderForm > legend
+{
+	width: auto;
+	margin-left: 5%;
+	padding: 0px 10px;
+	border: solid 1px #7E7E7E;
+	background-color: #ACACAC;
+	font-size: large;
+}
+.chkPrixOffert
+{
+	border-radius: 0;
+}
+
+/*  -- ACCUEIL FLEX --*/
+.accueil-flex > div
+{
+	/*border: solid 1px black;*/
+	min-width: 300px;
+}
+.accueil-flex img
+{
+	/*border: solid 1px red;*/
+
+}
+.graph
+{
+	border: solid 1px black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/*  -- FIN ACCUEIL FLEX --*/
+
+.w-40
+{
+	width: 40%;
+	min-width: 40%;
+}

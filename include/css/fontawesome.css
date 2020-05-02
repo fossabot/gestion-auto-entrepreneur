@@ -1,0 +1,70 @@
+.fa-sign-out-alt
+{
+	padding-left: 10px;
+	font-size: medium;
+}
+.fa-file-pdf
+{
+	font-size: 200%;
+	color: red;
+}
+.fa-pen-square
+{
+	font-size: 200%;
+	color: #2D8EF1;
+}
+.fa-trash-alt
+{
+	font-size: 100%;
+	color: red;
+}
+.fa-times-circle
+{
+	font-size: 200%;
+	color: red;
+}
+.fa-check-circle
+{
+	font-size: 200%;
+	color: #1DA10B;
+}
+.fa-check-square
+{
+	font-size: 150%;
+	color: #4FEF00;
+}
+.fa-window-close
+{
+	font-size: 150%;
+	color: #FF0E0E;
+}
+.fa-eye
+{
+	font-size: 150%;
+	color: #2D8EF1;
+}
+.fa-paper-plane
+{
+	font-size: 150%;
+	color: #2D8EF1;
+}
+.urgence1
+{
+	color: #25BDFC;
+	font-size: 150%;
+}
+.urgence2
+{
+	color: #0DDC34;
+	font-size: 150%;
+}
+.urgence3
+{
+	color: #FCAE25;
+	font-size: 150%;
+}
+.urgence4
+{
+	color: #FC2525;
+	font-size: 150%;
+}
