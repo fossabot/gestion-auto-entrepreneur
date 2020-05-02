@@ -1,6 +1,6 @@
 <!-- HTML -->
 	<div class="footer">
-		<p>Application par <a href="http://jonathan-brea.fr" target="_blank">Jonathan BREA</a> - <a href="#" target="_blank">Documentation et support de l'application</a> - <a>Version: 20W18dev</a></p>
+		<p>Application par <a href="http://jonathan-brea.fr" target="_blank">Jonathan BREA</a> - <a href="#" target="_blank">Site de l'application</a></p>
 	</div>
 
 <!-- SCRIPT -->
