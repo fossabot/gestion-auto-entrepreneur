@@ -19,6 +19,10 @@
 	<main>
 		<h1>Liste des prestations</h1>
 
+		<div class="text-center w-25 mx-auto mb-4">
+			<a href="nouveau.php"><button type="button" class="btn btnBarre">Nouveau</button></a>
+		</div>
+
 		<div class="table-responsive">
 			<table class="">
 				<thead>
