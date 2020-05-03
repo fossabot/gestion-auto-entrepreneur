@@ -149,3 +149,53 @@ Maintenant vous pouvez proceder à la configuration de l'application.
 - Terminez par `Valider`
 
 - Si aucune erreur n'apparaît, vous avez terminé cette étape, sinon renseignez vous sur internet pour résoudre l'erreur.
+
+**<u>A partir de cette étape, vous avez accès à l'application, cependant vous devez encore configurer quelques points de l'application</u>**
+
+### Configuration des types d'activités
+
+Dans le menu de configuration, allez sur `Liste des activités`.
+
+Dans cette partie, vous devez renseigner les catégories d'activités dans la catégorie associée. Cette partie est importantes, car elle pourrait fausser les résumé par la suite.
+
+> #### Exemples:
+> 
+> **Libérale**: création, conseils, formation
+> 
+> **Artisanale**: maintenance, installation
+> 
+> **Commerciale**: vente, revente
+
+Si vous ne savez pas quoi saisir, renseignez-vous en fonction de votre avtivité.
+
+### Configuration des moyens de paiement
+
+Dans le menu de configuration, allez sur `Moyens de paiement`.
+
+Ici vous pouvez saisir les moyens de payements que vous acceptés, seule le nom apparais sur la facture.
+
+### Configuration du thème
+
+Dans le menu de configuration, allez sur `Thème`.
+
+Sur cette page vous pouvez configurer l'apparence de l'application comme vous le souhaitez. 
+
+N'ouvliez pas de `Valider` pour apliquer les paramètres. Au besoin rechargez la page si les modifications ne font pas visibles après avoir validé.
+
+### Configuration des mails
+
+Dans le menu de configuration, allez sur `Email de notifications`.
+
+Dans la première partie de cette page, vous allez devoir configurer les parametres de votre serveur de messagerie pour envoyer des mails depuis l'application.
+
+Cette manipulation est spécifique à chacuns, vous devez vous renseigner sur la documentation de votre hébergeur pour trouver les paramètres à utiliser.
+
+> ##### Documentation:
+> 
+> OVH: [Configurer son adresse e-mail sur Outlook 2016 pour Windows | Documentation OVH](https://docs.ovh.com/fr/emails/configuration-outlook-2016/)
+> 
+> 1&1 - IONOS: [Paramètres de votre programme de messagerie (IMAP & POP3) - IONOS Assistance](https://www.ionos.fr/assistance/email/11-ionos-gerer-le-courrier-de-base/parametres-pour-votre-programme-de-messagerie-imap-pop3/)
+> 
+> GMAIL: [Envoyer des e-mails depuis une imprimante, un scanner ou une application - Aide Administrateur G Suite](https://support.google.com/a/answer/176600?hl=fr)
+
+Si vous utilisez une adresse gmail avec la double authentification activée, consultez cette documentation qui vous permétera de vous connécter sans la double authentification: [Se connecter avec un mot de passe d'application - Aide Compte Google](https://support.google.com/accounts/answer/185833?hl=fr)
