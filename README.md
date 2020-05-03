@@ -22,6 +22,14 @@
    1. [Connexion à la base de données](#connexion-à-la-base-de-données)
    
    2. [Saisie des informations de l'entreprise](#saisie-des-informations-de-lentreprise)
+   
+   3. [Configuration des types d'activités](#configuration-des-types-dactivités)
+   
+   4. [Configuration des moyens de paiement](#configuration-des-moyens-de-paiement)
+   
+   5. [Configuration du thème](#configuration-du-thème)
+   
+   6. [Configuration des mails](#configuration-des-mails)
 
 4. Prise en main
 
@@ -158,13 +166,13 @@ Dans le menu de configuration, allez sur `Liste des activités`.
 
 Dans cette partie, vous devez renseigner les catégories d'activités dans la catégorie associée. Cette partie est importantes, car elle pourrait fausser les résumé par la suite.
 
-> #### Exemples:
-> 
-> **Libérale**: création, conseils, formation
-> 
-> **Artisanale**: maintenance, installation
-> 
-> **Commerciale**: vente, revente
+#### Exemples:
+
+- **Libérale**: création, conseils, formation
+
+- **Artisanale**: maintenance, installation
+
+- **Commerciale**: vente, revente
 
 Si vous ne savez pas quoi saisir, renseignez-vous en fonction de votre avtivité.
 
