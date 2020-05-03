@@ -194,6 +194,8 @@ N'ouvliez pas de `Valider` pour apliquer les paramètres. Au besoin rechargez la
 
 Dans le menu de configuration, allez sur `Email de notifications`.
 
+#### Configuration du serveur d'envoi
+
 Dans la première partie de cette page, vous allez devoir configurer les parametres de votre serveur de messagerie pour envoyer des mails depuis l'application.
 
 Cette manipulation est spécifique à chacuns, vous devez vous renseigner sur la documentation de votre hébergeur pour trouver les paramètres à utiliser.
@@ -206,4 +208,87 @@ Cette manipulation est spécifique à chacuns, vous devez vous renseigner sur la
 > 
 > GMAIL: [Envoyer des e-mails depuis une imprimante, un scanner ou une application - Aide Administrateur G Suite](https://support.google.com/a/answer/176600?hl=fr)
 
-Si vous utilisez une adresse gmail avec la double authentification activée, consultez cette documentation qui vous permétera de vous connécter sans la double authentification: [Se connecter avec un mot de passe d'application - Aide Compte Google](https://support.google.com/accounts/answer/185833?hl=fr)
+Si vous utilisez <u>une adresse gmail avec la double authentification activée</u>, consultez cette documentation qui vous permétera de vous connécter sans la double authentification: [Se connecter avec un mot de passe d'application - Aide Compte Google](https://support.google.com/accounts/answer/185833?hl=fr)
+
+Une fois les paramètres enregistrés, vous pouvez envoyer un email de test, si le message `succès` s'affiche en haut de la page, vous devriez recevoir un email sur l'adresse email saisie lors de la configuration. Si une erreur apparait, vérifiez vos paramètres et recommencez. 
+
+#### Configuration des emails "types"
+
+Dans les deux autres parties de la page, vous pouvez configurer le sujet et le contenu type lors de l'envoi de documents. Vous pouvez utiliser des variables (dans le sujet et le contenu), elles seront automatiquement remplacées par les véritables informations (en fonction du client, de la prestation et du document) lors du chargement de la page d'envoi. Si vous le souhaitez, vous pourrez adapter le contenu du texte avant l'envoi.
+
+##### Voici les variables utilisables
+
+<table style="width: 100%;">
+    <thead >
+        <tr>
+            <th style="width: 50%;">Variable</th>
+            <th style="width: 50%;">Affichage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{documentNumero}</td>
+            <td>Numéro du document</td>
+        </tr>
+        <tr>
+            <td>{documentDateEdition}</td>
+            <td>Date d'émission du document</td>
+        </tr>
+        <tr>
+            <td>{prestationOuverture}</td>
+            <td>Date d'ouverture de la prestation</td>
+        </tr>
+        <tr>
+            <td>{prestationFacturation}</td>
+            <td>Date de facturation</td>
+        </tr>
+        <tr>
+            <td>{prestationLivraison}</td>
+            <td>Date de livraison</td>
+        </tr>
+        <tr>
+            <td>{prestationCloture}</td>
+            <td>Date de clôture</td>
+        </tr>
+        <tr>
+            <td>{prestationCommentaire}</td>
+            <td>Commentaire de la prestation</td>
+        </tr>
+        <tr>
+            <td>{prestationMoyenPaiement}</td>
+            <td>Moyen de paieent de la prestation</td>
+        </tr>
+        <tr>
+            <td>{clientNom}</td>
+            <td>Nom du client</td>
+        </tr>
+        <tr>
+            <td>{clientEmail}</td>
+            <td>Adresse email du client</td>
+        </tr>
+        <tr>
+            <td>{clientAdresse}</td>
+            <td>Adresse du client</td>
+        </tr>
+        <tr>
+            <td>{clientCP}</td>
+            <td>Code postale du client</td>
+        </tr>
+        <tr>
+            <td>{clientVille}</td>
+            <td>Ville du client</td>
+        </tr>
+        <tr>
+            <td>{clientPays}</td>
+            <td>Pays du client</td>
+        </tr>
+        <tr>
+            <td>{clientTelFixe}</td>
+            <td>Téléphone fixe du client</td>
+        </tr>
+        <tr>
+            <td>{clientTelPortable}</td>
+            <td>Téléphone postable du client</td>
+        </tr>
+    </tbody>
+</table>
