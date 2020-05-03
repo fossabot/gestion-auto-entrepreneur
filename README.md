@@ -6,11 +6,11 @@
 
 ## Sommaire
 
-1. Présentation
+1. [Présentation](#présentation)
 
 2. Installation
 
-3. Configuration
+3. Configuration de l'application
 
 4. Prise en main
 
@@ -99,7 +99,7 @@ phpMyAdmin est une application web qui permet de gérer vos bases de données de
    
    6. Si aucune erreur n'apparaît, vous avez terminé cette étape, sinon renseignez vous sur internet pour résoudre l'erreur. 
 
-## Configuration principale de l'application
+## Configuration de l'application
 
 Maintenant vous pouvez proceder à la configuration de l'application.
 
