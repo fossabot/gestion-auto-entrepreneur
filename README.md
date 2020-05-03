@@ -84,7 +84,7 @@ phpMyAdmin est une application web qui permet de gérer vos bases de données de
    2. Saisissez un nom d'utilisateur (ex: `gestion-micro-entreprise`, `gestio`, `gme`), un mot de passe (vous pouvez générer un mot de passe aléatoire, ce mot de passe ne sera à saisir qu'une seule fois), enfin cochez la case `Créer une base portant son nom ...`.  **<u>ATTENTION:</u> ces informations sont très importantes, gardez-les dans un bloc-notes pour la suite.**
       
       <p align="center">
-          <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaFormCreationUtilisateur.png" alt="Formulaire de création de l'utilisateur" width="500" data-align="center">
+          <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaFormCreationUtilisateur.png" alt="Formulaire de création de l'utilisateur" width="800" data-align="center">
       </p>
    
    3. Après avoir créé la BDD, cliquez sur celle-ci dans la liste de gauche, puis sélectionnez `Importer` dans le menu en haut de la page.
@@ -92,7 +92,7 @@ phpMyAdmin est une application web qui permet de gérer vos bases de données de
    4. Utilisez le bouton `Parcourir ...` pour selectionner le fichier `BDD.sql` obtenu lors du téléchargement des fichiers.
       
       <p align="center">
-          <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaImporter.png" alt="Importation de la structure de la BDD" width="500" data-align="center">
+          <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaImporter.png" alt="Importation de la structure de la BDD" width="800" data-align="center">
       </p>
    
    5. Puis cliquez sur `Exécute` en bas de la page.
@@ -110,7 +110,7 @@ Maintenant vous pouvez proceder à la configuration de l'application.
 2. Si tout s'est bien passé, vous devriez arrver sur une page nommée: `Installation de la BDD`
    
    <p align="center">
-          <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/appInstallBdd.png" alt="Page de configuration de la BDD" width="500" data-align="center">
+          <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/appInstallBdd.png" alt="Page de configuration de la BDD" width="800" data-align="center">
       </p>
 
 3. Le formulaire de cette page vous permet de cnnecter la base de données précédament installée à l'application
@@ -126,7 +126,7 @@ Maintenant vous pouvez proceder à la configuration de l'application.
 ### Saisie des informations de l'entreprise
 
 <p align="center">
- <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/appInstallEntrepriseInfo.png" alt="Page de configuration des informations de l'entreprise" width="500" data-align="center">
+ <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/appInstallEntrepriseInfo.png" alt="Page de configuration des informations de l'entreprise" width="800" data-align="center">
  </p>
 
 <u>ATTENTION:</u> ces informations sont très importantes, elles servirons pour la création des factures. Vérifiez bien avant de valider, certaines infirmations comme le numéro SIRET ne sont pas modifiable
