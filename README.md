@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/logo.png" alt="Logo application" width="415" data-align="center">
     <br>
-    <img src="https://img.shields.io/badge/LICENCE-GPL%20v3-red" alt="GPL v3">
+    <a href="https://www.gnu.org/licenses/quick-guide-gplv3.fr.html"><img src="https://img.shields.io/badge/LICENCE-GPL%20v3-red" alt="GPL v3"></a>
     <br>
     <span>Par <a href="http://jonathan-brea.fr">Jonathan BREA</a></span>
 </p>
