@@ -1,6 +1,6 @@
 # Gestion auto entrepreneur
 <p align="center">
-	<img title="" src="http://jonathan-brea.fr/wp-content/uploads/2020/05/logo.png" alt="http://jonathan-brea.fr/wp-content/uploads/2020/05/logo.png" width="415" data-align="center">
+	<img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/logo.png" alt="http://jonathan-brea.fr/wp-content/uploads/2020/05/logo.png" width="415" data-align="center">
 </p>
 
 ## Sommaire
