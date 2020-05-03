@@ -1,6 +1,7 @@
 # Gestion auto entrepreneur
+
 <p align="center">
-	<img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/logo.png" alt="http://jonathan-brea.fr/wp-content/uploads/2020/05/logo.png" width="415" data-align="center">
+    <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/logo.png" alt="Logo application" width="415" data-align="center">
 </p>
 
 ## Sommaire
@@ -15,8 +16,6 @@
 
 5. Crédits
 
-
-
 ## Présentation
 
 Cette application web à pour but de faciliter la gestion administrative d'un auto entrepreneur. 
@@ -24,8 +23,6 @@ Cette application web à pour but de faciliter la gestion administrative d'un au
 Cette application sous forme de site web permet d'être simplement utilisée sur PC, tablette et smartphone via un navigateur.
 
 Après avoir créé vos produits et vos clients, vous pourrez utiliser le gestionnaire de prestation, pour garder une trace de votre travail. De plus cette application vous permet de générer automatiquement des devis et des factures et si vous le souhaitez, les envoyer par mail de manière simple.
-
-
 
 ## Installation
 
@@ -77,6 +74,12 @@ phpMyAdmin est une application web qui permet de gérer vos bases de données de
 2. Maintenant, vous devez créer un utilisateur et une base de données spécifique à l'application:
    
    1. Dans le menu en haut de la page sélectionnez `Comptes utilisateurs`, puis dans la page qui s'ouvre, `Ajouter un compte utilisateur`.
+      
+      <p align="center">
+       <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaCreationUtilisateurBtn1.png" alt="Btn création utilisateur 1" width="200" data-align="center">
+      <br>
+       <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaCreationUtilisateurBtn2.png" alt="Btn création utilisateur 2" width="200" data-align="center">
+      </p>
    
    2. Saisissez un nom d'utilisateur (ex: `gestion-micro-entreprise`, `gestio`, `gme`), un mot de passe (vous pouvez générer un mot de passe aléatoire, ce mot de passe ne sera à saisir qu'une seule fois), enfin cochez la case `Créer une base portant son nom ...`.  **<u>ATTENTION:</u> ces informations sont très importantes, gardez-les dans un bloc-notes pour la suite.**
    
