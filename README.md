@@ -35,6 +35,16 @@
 
 5. Crédits
 
+
+
+
+
+`{:toc max_level=3 }`
+
+
+
+
+
 ## Présentation
 
 Cette application web à pour but de faciliter la gestion administrative d'un auto entrepreneur. 
@@ -288,7 +298,7 @@ Dans les deux autres parties de la page, vous pouvez configurer le sujet et le c
         </tr>
         <tr>
             <td>{clientTelPortable}</td>
-            <td>Téléphone postable du client</td>
+            <td>Téléphone portable du client</td>
         </tr>
     </tbody>
 </table>
