@@ -2,6 +2,7 @@
 
 <p align="center">
     <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/logo.png" alt="Logo application" width="415" data-align="center">
+    <br><span>Par <a href="http://jonathan-brea.fr">Jonathan BREA</a></span>
 </p>
 
 ## Sommaire
