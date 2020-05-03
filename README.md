@@ -14,11 +14,13 @@
    
    2. [Téléchargement des fichiers](#Téléchargement-des-fichiers)
    
-   3. [Création de la base de données à l'aide de phpMyAdmin](#Création-de-la-base-de-données-à-l'aide-de-phpMyAdmin)
+   3. [Création de la base de données à l'aide de phpMyAdmin](#création-de-la-base-de-données-à-laide-de-phpmyadmin)
 
-3. Configuration de l'application
+3. [Configuration de l'application](#configuration-de-lapplication)
    
-   1. Connexion à la base de données
+   1. [Connexion à la base de données](#connexion-à-la-base-de-données)
+   
+   2. [Saisie des informations de l'entreprise](#saisie-des-informations-de-lentreprise)
 
 4. Prise en main
 
