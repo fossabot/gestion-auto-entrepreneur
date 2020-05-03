@@ -8,9 +8,17 @@
 
 1. [Présentation](#présentation)
 
-2. Installation
+2. [Installation](#installation)
+   
+   1. [Prérequis](#Prérequis)
+   
+   2. [Téléchargement des fichiers](#Téléchargement-des-fichiers)
+   
+   3. [Création de la base de données à l'aide de phpMyAdmin](#Création-de-la-base-de-données-à-l'aide-de-phpMyAdmin)
 
 3. Configuration de l'application
+   
+   1. Connexion à la base de données
 
 4. Prise en main
 
