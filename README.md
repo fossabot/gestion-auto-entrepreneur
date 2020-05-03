@@ -31,17 +31,7 @@
    
    6. [Configuration des mails](#configuration-des-mails)
 
-4. Prise en main
-
-5. Crédits
-
-
-
-
-
-`{:toc max_level=3 }`
-
-
+4. Crédits
 
 
 
@@ -302,3 +292,5 @@ Dans les deux autres parties de la page, vous pouvez configurer le sujet et le c
         </tr>
     </tbody>
 </table>
+
+## Crédits
