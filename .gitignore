@@ -1,3 +1,4 @@
 
 include/conf/bdd.php
 # include/documents/*
+*.pdf
