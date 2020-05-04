@@ -1,4 +1,6 @@
 # Gestion auto entrepreneur
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJonathanb-74%2Fgestion-auto-entrepreneur.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJonathanb-74%2Fgestion-auto-entrepreneur?ref=badge_shield)
+
 
 <p align="center">
     <img src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/logo.png" alt="Logo application" width="415" data-align="center">
@@ -7,6 +9,9 @@
     <br>
     <span>Par <a href="http://jonathan-brea.fr">Jonathan BREA</a></span>
 </p>
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJonathanb-74%2Fgestion-auto-entrepreneur.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJonathanb-74%2Fgestion-auto-entrepreneur?ref=badge_large)
 
 ## Sommaire
 
