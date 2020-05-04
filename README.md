@@ -71,11 +71,11 @@ En premier, vous devez télécharger l'archive contenant les fichiers sources:
 
 2. Sélectionnez "**Download ZIP**".
 
-3. Enregistrez l'archive dans le répetoire de votre choix.
+3. Enregistrez l'archive dans le répertoire de votre choix.
 
 4. Décompressez l'archive.
 
-5. Placez tous les fichiers dans le répetoirede votre serveur web
+5. Placez tous les fichiers dans le répetoire de votre serveur web
    
    1. Si vous utilisez WAMP, vous devez placer les fichiers dans  `C:\wamp64\www\`
    
@@ -109,7 +109,7 @@ phpMyAdmin est une application web qui permet de gérer vos bases de données de
    
    3. Après avoir créé la BDD, cliquez sur celle-ci dans la liste de gauche, puis sélectionnez `Importer` dans le menu en haut de la page.
    
-   4. Utilisez le bouton `Parcourir ...` pour selectionner le fichier `BDD.sql` obtenu lors du téléchargement des fichiers.
+   4. Utilisez le bouton `Parcourir ...` pour sélectionner le fichier `BDD.sql` obtenu lors du téléchargement des fichiers.
       
       <p align="center">
           <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/pmaImporter.png" alt="Importation de la structure de la BDD" width="800" data-align="center">
@@ -121,25 +121,25 @@ phpMyAdmin est une application web qui permet de gérer vos bases de données de
 
 ## Configuration de l'application
 
-Maintenant vous pouvez proceder à la configuration de l'application.
+Maintenant vous pouvez procéder à la configuration de l'application.
 
 ### Connexion à la base de données
 
 1. Connectez-vous à l'application web via un navigateur à l'adresse: `localhost`
 
-2. Si tout s'est bien passé, vous devriez arrver sur une page nommée: `Installation de la BDD`
+2. Si tout s'est bien passé, vous devriez arriver sur une page nommée: `Installation de la BDD`
    
    <p align="center">
           <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/appInstallBdd.png" alt="Page de configuration de la BDD" width="800" data-align="center">
       </p>
 
-3. Le formulaire de cette page vous permet de cnnecter la base de données précédament installée à l'application
+3. Le formulaire de cette page vous permet de connecter la base de données précédemment installée à l'application
    
    1. Saisissez l'adresse du serveur, si vous utilisez WAMP (ou XAMPP) saisissez `localhost`, si vous utilisez un hébergement en ligne renseignez-vous sur l'adresse du serveur.
    
-   2. Pour l'utilisateur et la base de donnée, saisissez le nom d'utilisateur que vous avez créer sur phpMyAdmin à l'étape précédente. Enfin saisissez le mot de passe
+   2. Pour l'utilisateur et la base de données, saisissez le nom d'utilisateur que vous avez créé sur phpMyAdmin à l'étape précédente. Enfin, saisissez le mot de passe
    
-   3. Terminez par `Valider`
+   3. Terminez par `Valider`.
    
    4. Si aucune erreur n'apparaît, vous avez terminé cette étape, sinon renseignez vous sur internet pour résoudre l'erreur.
 
@@ -149,23 +149,23 @@ Maintenant vous pouvez proceder à la configuration de l'application.
  <img title="" src="https://github.com/Jonathanb-74/gestion-auto-entrepreneur/blob/master/.documentation/appInstallEntrepriseInfo.png" alt="Page de configuration des informations de l'entreprise" width="800" data-align="center">
  </p>
 
-<u>ATTENTION:</u> ces informations sont très importantes, elles servirons pour la création des factures. Vérifiez bien avant de valider, certaines infirmations comme le numéro SIRET ne sont pas modifiable
+<u>ATTENTION:</u> ces informations sont très importantes, elles serviront pour la création des factures. Vérifiez bien avant de valider, certaines infirmations comme le numéro SIRET ne sont pas modifiables.
 
 - L'adresse email sera utilisée lorsqu'un client souhaite répondre à un email envoyé depuis l'application.
 
-- Vous devez saisir au moins un des deux numéros de téléphones.
+- Vous devez saisir au moins un des deux numéros de téléphone.
 
 - Terminez par `Valider`
 
 - Si aucune erreur n'apparaît, vous avez terminé cette étape, sinon renseignez vous sur internet pour résoudre l'erreur.
 
-**<u>A partir de cette étape, vous avez accès à l'application, cependant vous devez encore configurer quelques points de l'application</u>**
+**<u>À parir de cette étape, vous avez accès à l'application, cependant vous devez encore configurer quelques points de l'application</u>**
 
 ### Configuration des types d'activités
 
 Dans le menu de configuration, allez sur `Liste des activités`.
 
-Dans cette partie, vous devez renseigner les catégories d'activités dans la catégorie associée. Cette partie est importantes, car elle pourrait fausser les résumé par la suite.
+Dans cette partie, vous devez renseigner les catégories d'activités dans la catégorie associée. Cette partie est importante, car elle pourrait fausser les résumés par la suite.
 
 #### Exemples:
 
@@ -175,13 +175,13 @@ Dans cette partie, vous devez renseigner les catégories d'activités dans la ca
 
 - **Commerciale**: vente, revente
 
-Si vous ne savez pas quoi saisir, renseignez-vous en fonction de votre avtivité.
+Si vous ne savez pas quoi saisir, renseignez-vous en fonction de votre activité.
 
 ### Configuration des moyens de paiement
 
 Dans le menu de configuration, allez sur `Moyens de paiement`.
 
-Ici vous pouvez saisir les moyens de payements que vous acceptés, seule le nom apparais sur la facture.
+Ici vous pouvez saisir les moyens de payements que vous acceptez, seul le nom apparaît sur la facture.
 
 ### Configuration du thème
 
@@ -189,7 +189,7 @@ Dans le menu de configuration, allez sur `Thème`.
 
 Sur cette page vous pouvez configurer l'apparence de l'application comme vous le souhaitez. 
 
-N'ouvliez pas de `Valider` pour apliquer les paramètres. Au besoin rechargez la page si les modifications ne font pas visibles après avoir validé.
+N'oubliez pas de `Valider` pour appliquer les paramètres. Au besoin, rechargez la page si les modifications ne font pas visibles après avoir validé.
 
 ### Configuration des mails
 
@@ -197,9 +197,9 @@ Dans le menu de configuration, allez sur `Email de notifications`.
 
 #### Configuration du serveur d'envoi
 
-Dans la première partie de cette page, vous allez devoir configurer les parametres de votre serveur de messagerie pour envoyer des mails depuis l'application.
+Dans la première partie de cette page, vous allez devoir configurer les paramètres de votre serveur de messagerie pour envoyer des mails depuis l'application.
 
-Cette manipulation est spécifique à chacuns, vous devez vous renseigner sur la documentation de votre hébergeur pour trouver les paramètres à utiliser.
+Cette manipulation est spécifique à chacun, vous devez vous renseigner sur la documentation de votre hébergeur pour trouver les paramètres à utiliser.
 
 > ##### Documentation:
 > 
@@ -209,7 +209,7 @@ Cette manipulation est spécifique à chacuns, vous devez vous renseigner sur la
 > 
 > GMAIL: [Envoyer des e-mails depuis une imprimante, un scanner ou une application - Aide Administrateur G Suite](https://support.google.com/a/answer/176600?hl=fr)
 
-Si vous utilisez <u>une adresse gmail avec la double authentification activée</u>, consultez cette documentation qui vous permétera de vous connécter sans la double authentification: [Se connecter avec un mot de passe d'application - Aide Compte Google](https://support.google.com/accounts/answer/185833?hl=fr)
+Si vous utilisez <u>une adresse Gmail avec la double authentification activée</u>, consultez cette documentation qui vous perméttra de vous connecter sans la double authentification: [se connecter avec un mot de passe d'application - Aide Compte Google](https://support.google.com/accounts/answer/185833?hl=fr)
 
 Une fois les paramètres enregistrés, vous pouvez envoyer un email de test, si le message `succès` s'affiche en haut de la page, vous devriez recevoir un email sur l'adresse email saisie lors de la configuration. Si une erreur apparait, vérifiez vos paramètres et recommencez. 
 
