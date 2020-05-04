@@ -658,7 +658,7 @@ function nbrePrestationsMoisActuel()
 
 function prestationCloture($id)
 {
-
+ // 	--------------------------------------------------------------------------------------------------------------------------------------------- PAS OK
 	global $conn;
 
     // On créé la requête
@@ -675,7 +675,7 @@ function prestationCloture($id)
 	{
 		if($dataPrestationClotureProduitDefSelect['remise'] != "")
 		{
-	    	$prix = ($dataPrestationClotureProduitDefSelect['prixvente'] - $dataPrestationClotureProduitDefSelect['prixachat']) * ($dataPrestationClotureProduitDefSelect['remise']/ 100);
+	    	$prix = ($dataPrestationClotureProduitDefSelect['prixvente'] * (1 - $dataPrestationClotureProduitDefSelect['remise'] / 100)) - $dataPrestationClotureProduitDefSelect['prixachat'];
 		}
 		else
 		{
@@ -683,12 +683,12 @@ function prestationCloture($id)
 		}
 
 	    $id2 = $dataPrestationClotureProduitDefSelect['ppID'];
-	    echo $id2 . " -> " . $prix . "<br>";
+	    // echo $id2 . " -> " . $prix . "<br>";
     
 	    // On créé la requête
 		$reqPrestationClotureProduitDef = "UPDATE prestationproduit SET prixfinalunitaire='$prix' WHERE id='$id2'";
 
-		echo $reqPrestationClotureProduitDef . "<br>";
+		// echo $reqPrestationClotureProduitDef . "<br>";
 		 
 		// on envoie la requête
 		$resPrestationClotureProduitDef = $conn->query($reqPrestationClotureProduitDef);
