@@ -1,6 +1,6 @@
 <!-- HTML -->
 	<div class="footer">
-		<p>Application par <a href="http://jonathan-brea.fr" target="_blank">Jonathan BREA</a> - <a href="#" target="_blank">Site de l'application</a></p>
+		<p>Application par <a href="http://jonathan-brea.fr" target="_blank">Jonathan BREA</a> - <a href="https://github.com/Jonathanb-74/gestion-auto-entrepreneur" target="_blank">Site de l'application</a></p>
 	</div>
 
 <!-- SCRIPT -->
