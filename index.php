@@ -20,8 +20,6 @@
 	<main>
 		<h1>Accueil</h1>
 
-		<?php //echo nbreClients(); ?>
-
 		<div class="d-flex justify-content-around text-center mt-5 flex-wrap accueil-flex">
 			<div class=" m-2 w-25 mt-5">
 				<?php 
