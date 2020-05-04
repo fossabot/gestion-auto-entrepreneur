@@ -296,7 +296,7 @@ Dans les deux autres parties de la page, vous pouvez configurer le sujet et le c
 
 ## Crédits
 
-### [CKeditor]([Rich text editor of tomorrow | CKEditor 5](https://ckeditor.com/ckeditor-5/))
+### [CKeditor](https://ckeditor.com/ckeditor-5/)
 
 Edition des mails.
 
